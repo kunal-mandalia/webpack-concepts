@@ -1,9 +1,12 @@
-import _ from 'lodash'
+import lodash from 'lodash'
+import css from './styles.css'
 
 function component() {
-	var element = document.createElement('div')
+	console.log(css)
+	var element = document.createElement('h1')
 	// Lodash is required to run the line below
-	element.innerHTML = _.join(['Hello', 'webpack'], ' ')
+	element.innerHTML = _.join(['Welcome to the', 'demo'], ' ')
+	element.classList.add(css.subtitle)
 	return element
 }
 

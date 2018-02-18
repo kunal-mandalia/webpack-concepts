@@ -6,12 +6,14 @@
   "author": "Kunal Mandalia <kunal.v.mandalia@gmail.com> (http://kunalmandalia.com/)",
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "0.28.9",
+    "style-loader": "0.20.2",
     "webpack": "3.11.0"
   },
   "dependencies": {
     "lodash": "4.17.5"
   },
-	"scripts": {
-		"build": "webpack"
-	}
+  "scripts": {
+    "build": "webpack"
+  }
 }
